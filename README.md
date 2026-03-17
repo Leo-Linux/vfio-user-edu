@@ -8,7 +8,7 @@ to QEMU via the vfio-user protocol over a UNIX socket.
 
 ```
 ┌─────────────────────────────┐          UNIX Socket
-│        QEMU (VMM)           │    ◄──── vfio-user ────►  ┌──────────────────────┐
+│        QEMU (VMM)           │    ◄──── vfio-user ────►   ┌──────────────────────┐
 │  ┌───────────────────────┐  │         protocol           │  edu_device (this)   │
 │  │ vfio-user-pci driver  │  │                            │                      │
 │  └───────────────────────┘  │                            │  BAR0 MMIO handler   │
