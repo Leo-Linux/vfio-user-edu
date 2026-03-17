@@ -109,7 +109,7 @@ make VFIO_USER_SRCDIR=/path/to/libvfio-user
 For example:
 
 ```bash
-make VFIO_USER_SRCDIR=/home/leo/leo/workspace/vfio-user/libvfio-user
+make VFIO_USER_SRCDIR=~/workspace/vfio-user/libvfio-user
 ```
 
 `VFIO_USER_SRCDIR` automatically derives the include and lib paths. You can also specify them individually:
